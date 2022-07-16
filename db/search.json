@@ -1,0 +1,33 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:080",
+        "action": "search",
+        "timestamp": "2022-07-07T10:43:48.705082Z",
+        "core_version": "0.7.1",
+        "consumer_id": "thecodingcompany.herokuapp.com",
+        "consumer_uri": "https://5646-122-162-231-10.in.ngrok.io/eua",
+        "transaction_id": "ae9e6d90-fde1-11ec-b66a-f551703a8c53"
+    },
+    "message": {
+        "intent": {
+            "fulfillment": {
+                "agent": {
+                    "name": "Amod"
+                },
+                "start": {
+                    "time": {
+                        "timestamp": "2022-06-22T16:00:00"
+                    }
+                },
+                "end": {
+                    "time": {
+                        "timestamp": "2022-06-22T17:30:00"
+                    }
+                },
+                "type": "Teleconsultation"
+            }
+        }
+    }
+}

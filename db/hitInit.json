@@ -1,0 +1,80 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:080",
+        "action": "init",
+        "timestamp": "2022-07-14T08:05:55.252760Z",
+        "core_version": "0.7.1",
+        "consumer_id": "thecodingcompany.herokuapp.com",
+        "consumer_uri": "https://5646-122-162-231-10.in.ngrok.io/eua",
+        "transaction_id": "c8f9ad70-034b-11ed-a6d6-c13d491ee158",
+        "message_id": "c8f9ad70-034b-11ed-a6d6-c13d491ee158"
+    },
+    "message": {
+        "order": {
+            "id": "d49a3f60-e630-11ec-b41c-99795ccbf2d5",
+            "item": {
+                "id": "1",
+                "descriptor": {
+                    "name": "Consultation"
+                },
+                "fulfillment_id": "e61a1aa1-c66d-4fcf-9467-85389c0f49b1",
+                "price": {
+                    "currency": "INR",
+                    "value": "1000"
+                }
+            },
+            "billing": {
+                "name": "Ganesh Borse",
+                "address": {
+                    "door": "21A",
+                    "name": "ABC Apartments",
+                    "locality": "Dwarka",
+                    "city": "New Delhi",
+                    "state": "New Delhi",
+                    "country": "India",
+                    "area_code": "110011"
+                },
+                "email": "",
+                "phone": "9595163508"
+            },
+            "fulfillment": {
+                "id": "e61a1aa1-c66d-4fcf-9467-85389c0f49b1",
+                "type": "Teleconsultation",
+                "agent": {
+                    "id": "sana.bhatt@hpr.abdm",
+                    "name": "sana.bhatt@hpr.abdm - Dr. Sana Bhatt",
+                    "gender": "F",
+                    "tags": {
+                        "@abdm/gov/in/education": "MD Medicine",
+                        "@abdm/gov/in/experience": "15.0",
+                        "@abdm/gov/in/follow_up": "300.0",
+                        "@abdm/gov/in/first_consultation": "500.0",
+                        "@abdm/gov/in/speciality": "Neurologist",
+                        "@abdm/gov/in/languages": "English, Hindi",
+                        "@abdm/gov/in/upi_id": "sana.bhatt@okaxis",
+                        "@abdm/gov/in/hpr_id": "12345678"
+                    }
+                },
+                "start": {
+                    "time": {
+                        "timestamp": "2022-06-10T12:30:00"
+                    }
+                },
+                "end": {
+                    "time": {
+                        "timestamp": "2022-06-10T12:45:00"
+                    }
+                },
+                "tags": {
+                    "@abdm/gov.in/slot_id": "e61a1aa1-c66d-4fcf-9467-85389c0f49b1"
+                }
+            },
+            "customer": {
+                "id": "61-8787-9274-4422",
+                "cred": "ganeshborse@sbxabdm"
+            }
+        }
+    }
+}
