@@ -14,7 +14,7 @@
         "intent": {
             "fulfillment": {
                 "agent": {
-                    "name": "Amod"
+                    "tags": {}
                 },
                 "start": {
                     "time": {

@@ -21,6 +21,20 @@ exports.hitSearch = async (message) => {
         searchJSON.message.intent.fulfillment.type = message.fulfillment.type
         searchJSON.context.transaction_id = randomUUID()
 
+        //  add optional params
+        if (message.fulfillment.speciality != "" && message.fulfillment.speciality != undefined) {
+            searchJSON.message.intent.fulfillment.agent.tags["@abdm/gov/in/speciality"] = message.fulfillment.speciality
+        }
+        if (message.fulfillment.language != "" && message.fulfillment.speciality != undefined) {
+            searchJSON.message.intent.fulfillment.agent.tags["@abdm/gov/in/language"] = message.fulfillment.language
+        }
+        if (message.fulfillment.name != "" && message.fulfillment.name != undefined) {
+            searchJSON.message.intent.fulfillment.agent.name = message.fulfillment.name
+        }
+        if (message.fulfillment.hpid != "" && message.fulfillment.hpid != undefined) {
+            searchJSON.message.intent.fulfillment.agent.id = message.fulfillment.hpid
+        }
+
         // send post request to gateway
         res = await axios.post('http://121.242.73.120:8083/api/v1/search', searchJSON)
         console.log(res.data);
@@ -50,7 +64,8 @@ exports.hitInit = async (fulfillment, item, transaction_id) => {
         let fulfillmentMapData = fs.readFileSync(path.join(__dirname, '..', 'db', 'fm', transaction_id + '.json'))
         let fulfillmentMap = JSON.parse(fulfillmentMapData)
 
-        var hspaUri = fulfillmentMap[JSON.stringify(fulfillment) + JSON.stringify(item)]
+        // var x = (JSON.stringify(fulfillment) + JSON.stringify(item)).split('').sort().join('').replace(/\s/g, '')
+        var hspaUri = fulfillmentMap[fulfillment]
 
         //Sonu should pass transaction id right then? YES Woohoooo!!! I love
         // send post request to HSPA Init
@@ -82,7 +97,7 @@ exports.hitConfirm = async (fulfillment, item, transaction_id) => {
         let fulfillmentMapData = fs.readFileSync(path.join(__dirname, '..', 'db', 'fm', transaction_id + '.json'))
         let fulfillmentMap = JSON.parse(fulfillmentMapData)
 
-        var hspaUri = fulfillmentMap[JSON.stringify(fulfillment) + JSON.stringify(item)]
+        var hspaUri = fulfillmentMap[fulfillment]
 
         // send post request to HSPA Init
         res = await axios.post(hspaUri + '/confirm', confirmJSON)
@@ -114,7 +129,7 @@ exports.onSearch = async (context, message) => {
             fulfillmentMap = JSON.parse(fmData)
 
             for (var i = 0; i < fulfillments.length; i++) {
-                fulfillmentMap[JSON.stringify(fulfillments[i]) + JSON.stringify(items[i])] = context.provider_uri
+                fulfillmentMap[fulfillments[i]] = context.provider_uri
             }
             fs.writeFile(fulfillmentMapPath, JSON.stringify(fulfillmentMap), function (err) {
                 if (err) throw err;
@@ -158,7 +173,7 @@ exports.onSearch = async (context, message) => {
 
             fulfillmentMap = {}
             for (var i = 0; i < fulfillments.length; i++) {
-                fulfillmentMap[JSON.stringify(fulfillments[i]) + JSON.stringify(items[i])] = context.provider_uri
+                fulfillmentMap[fulfillments[i]] = context.provider_uri
             }
             fs.writeFile(fulfillmentMapPath, JSON.stringify(fulfillmentMap), function (err) {
                 if (err) throw err;
