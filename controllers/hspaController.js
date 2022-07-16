@@ -1,9 +1,84 @@
+const constants = require('../constants/hspaConstants')
+const { randomUUID } = require('crypto');
 const fs = require('fs');
 var path = require('path');
 const axios = require('axios');
 
 const dbPath = '../db/dbConfig.json'
 const jsonPath = path.join(__dirname, '..', 'db', 'dbConfig.json');
+
+exports.Register = async (id, name, gender, startTime, endTime, type) => {
+    try {
+        let rawdata = fs.readFileSync(jsonPath);
+        let catalogue = JSON.parse(rawdata);
+
+
+        var startTimeAsDate = new Date(startTime)
+        var endTimeAsDate = new Date(endTime)
+
+        while (startTimeAsDate <= endTimeAsDate) {
+            var uuid = randomUUID()
+            var newUser = {
+                id: uuid,
+                type,
+                agent: {
+                    id,
+                    name,
+                    gender,
+                    tags: constants.TAGS
+                },
+                start: {
+                    time: {
+                        timestamp: startTimeAsDate.toISOString()
+                    }
+                },
+                end: {
+                    time: {
+                        timestamp: addMinutes(startTimeAsDate, 30).toISOString()
+                    }
+                }
+            }
+
+            startTimeAsDate = addMinutes(startTimeAsDate, 30)
+            catalogue.fulfillments.push(newUser)
+            catalogue.items.push({ ...constants.ITEM, id: uuid, fulfillment_id: uuid, descriptor: { name: type } })
+        }
+
+        fs.writeFile(jsonPath, JSON.stringify(catalogue), function (err) {
+            if (err) throw err;
+            console.log("It's saved!");
+            // file written successfully
+        });
+
+        return { status: "success" }
+    } catch (err) {
+        return { err }
+    }
+}
+
+exports.GetAppointments = async () => {
+    try {
+        let rawdata = fs.readFileSync(jsonPath);
+        let catalogue = JSON.parse(rawdata);
+
+        var users = []
+        for (let i = 0; i < catalogue.fulfillments.length; i++) {
+            var user = {
+                name: catalogue.fulfillments[i].agent.name,
+                id: catalogue.fulfillments[i].agent.id,
+                gender: catalogue.fulfillments[i].agent.gender,
+                type: catalogue.fulfillments[i].type,
+                startTime: catalogue.fulfillments[i].start.time.timestamp,
+                endTime: catalogue.fulfillments[i].end.time.timestamp
+            }
+            users.push(user)
+        }
+
+        return { status: "success", users }
+    } catch (err) {
+        return { err }
+    }
+}
 
 exports.Search = async (context, intent) => {
     try {
@@ -21,7 +96,7 @@ exports.Search = async (context, intent) => {
             // todo: more validations??
         }
         response.context.provider_id = "thecodingcompany.herokuapp.com"
-        response.context.provider_uri = "https://5646-122-162-231-10.in.ngrok.io/hspa"
+        response.context.provider_uri = "https://f0ee-122-162-231-10.in.ngrok.io/hspa"
         response.context.action = "on_search"
         response.context.message_id = context.transaction_id
 
@@ -52,7 +127,7 @@ exports.Init = async (context, order) => {
         // }
 
         response.context.provider_id = "thecodingcompany.herokuapp.com"
-        response.context.provider_uri = "https://5646-122-162-231-10.in.ngrok.io/hspa"
+        response.context.provider_uri = "https://f0ee-122-162-231-10.in.ngrok.io/hspa"
         response.context.action = "on_init"
         response.context.message_id = context.transaction_id
 
@@ -63,7 +138,7 @@ exports.Init = async (context, order) => {
         response.message.order.quote = QUOTE
 
         axios
-            .post(context.consumer_uri+'/on_init', response)
+            .post(context.consumer_uri + '/on_init', response)
             .then(res => {
                 console.log(`statusCode: ${res.status}`);
                 console.log(res.data);
@@ -71,7 +146,7 @@ exports.Init = async (context, order) => {
             .catch(error => {
                 console.error(error);
             });
-            return { response: "success" }
+        return { response: "success" }
     } catch (err) {
         return { err }
     }
@@ -81,7 +156,7 @@ exports.Confirm = async (context, order) => {
     try {
         var response = { context: context, message: { order: order } }
         response.context.provider_id = "thecodingcompany.herokuapp.com"
-        response.context.provider_uri = "https://5646-122-162-231-10.in.ngrok.io/hspa"
+        response.context.provider_uri = "https://f0ee-122-162-231-10.in.ngrok.io/hspa"
         response.context.action = "on_init"
         response.context.message_id = context.transaction_id
 
@@ -103,7 +178,7 @@ exports.Confirm = async (context, order) => {
         });
 
         axios
-            .post(context.consumer_uri+'/on_confirm', response)
+            .post(context.consumer_uri + '/on_confirm', response)
             .then(res => {
                 console.log(`statusCode: ${res.status}`);
                 console.log(res.data);
@@ -111,7 +186,7 @@ exports.Confirm = async (context, order) => {
             .catch(error => {
                 console.error(error);
             });
-            return { response: "success" }
+        return { response: "success" }
     } catch (err) {
         return { err }
     }
@@ -138,6 +213,10 @@ function validateFulfilmentExists(fulfillment, item) {
     }
 
     return false
+}
+
+function addMinutes(date, minutes) {
+    return new Date(date.getTime() + minutes * 60000);
 }
 
 const PAYMENT = {

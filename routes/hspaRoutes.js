@@ -21,4 +21,15 @@ app.post('/confirm', async (req, resp) => {
         .then(result => resp.status(200).json(result))
 })
 
+app.post('/registerDoctor', async (req, resp) => {
+    const { id, name, gender, startTime, endTime, type } = req.body
+    hspaService.Register(id, name, gender, startTime, endTime, type)
+        .then(result => resp.status(200).json(result))
+})
+
+app.get('/getDoctors', async (req, resp) => {
+    hspaService.GetAppointments()
+        .then(result => resp.status(200).json(result))
+})
+
 module.exports = app;
