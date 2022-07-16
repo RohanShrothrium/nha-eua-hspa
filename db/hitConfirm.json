@@ -1,0 +1,128 @@
+{
+    "context": {
+       "domain": "nic2004:85111",
+       "country": "IND",
+       "city": "std:080",
+       "action": "confirm",
+       "timestamp": "2022-07-14T08:05:55.252760Z",
+       "core_version": "0.7.1",
+       "consumer_id": "eua-nha",
+       "consumer_uri": "https://5646-122-162-231-10.in.ngrok.io/eua",
+       "transaction_id": "c8f9ad70-034b-11ed-a6d6-c13d491ee158",
+       "message_id": "c8f9ad70-034b-11ed-a6d6-c13d491ee158"
+   },
+   "message": {
+       "order": {
+           "id": "d5c3cce0-fbc9-11ec-8065-1b33c5dfb7fd",
+           "item": {
+               "id": "1",
+               "descriptor": {
+                   "name": "Consultation"
+               },
+               "fulfillment_id": "c3f44469-28c2-4dfa-b231-524c8e42362d",
+               "price": {
+                   "currency": "INR",
+                   "value": "1000"
+               }
+           },
+           "billing": {
+               "name": "Amod Suresh Joshi",
+               "address": {
+                   "door": "21A",
+                   "name": "ABC Apartments",
+                   "locality": "Dwarka",
+                   "city": "New Delhi",
+                   "state": "New Delhi",
+                   "country": "India",
+                   "area_code": "110011"
+               },
+               "email": "joshiamod@gmail.com",
+               "phone": "9970983214"
+           },
+           "fulfillment": {
+               "id": "c3f44469-28c2-4dfa-b231-524c8e42362d",
+               "type": "Teleconsultation",
+               "agent": {
+                   "id": "ganeshborse@hpr.ndhm",
+                   "name": "ganeshborse@hpr.ndhm - Ganesh Vikram Borse",
+                   "gender": "M",
+                   "tags": {
+                       "@abdm/gov/in/education": "MBBS",
+                       "@abdm/gov/in/experience": "5.0",
+                       "@abdm/gov/in/follow_up": "200.0",
+                       "@abdm/gov/in/first_consultation": "300.0",
+                       "@abdm/gov/in/speciality": "Cardiology",
+                       "@abdm/gov/in/languages": "Eng, Hin",
+                       "@abdm/gov/in/upi_id": "ganeshborse@icici",
+                       "@abdm/gov/in/hpr_id": "73-5232-1888-8686"
+                   }
+               },
+               "start": {
+                   "time": {
+                       "timestamp": "2022-07-11T11:45:00"
+                   }
+               },
+               "end": {
+                   "time": {
+                       "timestamp": "2022-07-11T12:00:00"
+                   }
+               },
+               "tags": {
+                   "@abdm/gov.in/slot_id": "c3f44469-28c2-4dfa-b231-524c8e42362d"
+               }
+           },
+           "quote": {
+               "price": {
+                   "currency": "INR",
+                   "value": "1000"
+               },
+               "breakup": [
+                   {
+                       "title": "Consultation",
+                       "price": {
+                           "currency": "INR",
+                           "value": "1000"
+                       }
+                   },
+                   {
+                       "title": "CGST @ 5%",
+                       "price": {
+                           "currency": "INR",
+                           "value": "50"
+                       }
+                   },
+                   {
+                       "title": "SGST @ 5%",
+                       "price": {
+                           "currency": "INR",
+                           "value": "50"
+                       }
+                   },
+                   {
+                       "title": "Registration",
+                       "price": {
+                           "currency": "INR",
+                           "value": "400"
+                       }
+                   }
+               ]
+           },
+           "payment": {
+               "uri": "https://api.bpp.com/pay?amt=1500&txn_id=ksh87yriuro34iyr3p4&mode=upi&vpa=sana.bhatt@upi",
+               "params": {
+                   "amount": "1500",
+                   "mode": "UPI",
+                   "vpa": "sana.bhatt@upi",
+                   "transaction_id": "abc128-riocn83920"
+               },
+               "type": "ON-ORDER",
+               "status": "PAID",
+               "tl_method": "http/get"
+           },
+           "customer": {
+               "id": "",
+               "cred": "amodjoshi@sbx"
+           }
+       }
+   }
+}

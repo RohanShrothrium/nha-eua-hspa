@@ -1,1 +1,6 @@
 node_modules/*
+db/fm/*.json
+db/confirm/*.json
+db/init/*.json
+db/fulfillments/*.json
+db/items/*.json

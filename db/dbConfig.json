@@ -115,8 +115,8 @@
             "id": "2",
             "type": "Teleconsultation",
             "agent": {
-                "id": "deepak.kumar@hpr.abdm",
-                "name": "deepak.kumar@hpr.abdm - Deepak Kumar",
+                "id": "praveen.sv@hpr.abdm",
+                "name": "praveen.sv@hpr.abdm - Praveen S V",
                 "gender": "M",
                 "tags": {
                     "@abdm/gov/in/first_consultation": "500.0",
@@ -146,8 +146,8 @@
             "id": "3",
             "type": "Teleconsultation",
             "agent": {
-                "id": "deepak.kumar@hpr.abdm",
-                "name": "deepak.kumar@hpr.abdm - Deepak Kumar",
+                "id": "rohan.shrothrium@hpr.abdm",
+                "name": "rohan.shrothrium@hpr.abdm - Rohan Shrothrium",
                 "gender": "M",
                 "tags": {
                     "@abdm/gov/in/first_consultation": "500.0",

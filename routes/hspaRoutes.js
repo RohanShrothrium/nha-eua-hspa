@@ -15,4 +15,10 @@ app.post('/init', async (req, resp) => {
         .then(result => resp.status(200).json(result))
 })
 
+app.post('/confirm', async (req, resp) => {
+    const { message, context } = req.body
+    hspaService.Confirm(context, message.order)
+        .then(result => resp.status(200).json(result))
+})
+
 module.exports = app;

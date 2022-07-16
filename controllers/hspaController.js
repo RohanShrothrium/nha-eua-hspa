@@ -77,6 +77,46 @@ exports.Init = async (context, order) => {
     }
 }
 
+exports.Confirm = async (context, order) => {
+    try {
+        var response = { context: context, message: { order: order } }
+        response.context.provider_id = "thecodingcompany.herokuapp.com"
+        response.context.provider_uri = "https://5646-122-162-231-10.in.ngrok.io/hspa"
+        response.context.action = "on_init"
+        response.context.message_id = context.transaction_id
+
+        let rawdata = fs.readFileSync(jsonPath);
+        let catalogue = JSON.parse(rawdata);
+
+        for (let i = 0; i < catalogue.fulfillments.length; i++) {
+            if (catalogue.fulfillments[i].id == order.fulfillment.id) {
+                catalogue.fulfillments.splice(i, 1)
+                catalogue.items.splice(i, 1)
+            }
+        }
+
+        const initString = JSON.stringify(catalogue)
+        fs.writeFile(jsonPath, initString, function (err) {
+            if (err) throw err;
+            console.log("It's saved!");
+            // file written successfully
+        });
+
+        axios
+            .post(context.consumer_uri+'/on_confirm', response)
+            .then(res => {
+                console.log(`statusCode: ${res.status}`);
+                console.log(res.data);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+            return { response: "success" }
+    } catch (err) {
+        return { err }
+    }
+}
+
 function validateFulfilmentTime(fulfilment, reqStartTime, reqEndTime) {
     const { start, end } = fulfilment
     var startTime = new Date(start.time.timestamp)
