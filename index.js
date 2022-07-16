@@ -1,11 +1,29 @@
 const express = require('express');
 const multer = require('multer');
+const cors = require('cors');
 const hspaRoutes = require('./routes/hspaRoutes');
 const euRoutes = require('./routes/euaRoutes');
 
 const app = express();
 // for parsing application/json
 app.use(express.json());
+
+const corsOpts = {
+  origin: '*',
+
+  methods: [
+    'GET',
+    'POST',
+  ],
+
+  allowedHeaders: [
+    'Content-Type',
+    'Access-Control-Allow-Origin',
+    'Access-Control-Allow-Credentials'
+  ],
+};
+
+app.use(cors(corsOpts));
 
 const upload = multer();
 

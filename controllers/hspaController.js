@@ -69,7 +69,8 @@ exports.GetAppointments = async () => {
                 gender: catalogue.fulfillments[i].agent.gender,
                 type: catalogue.fulfillments[i].type,
                 startTime: catalogue.fulfillments[i].start.time.timestamp,
-                endTime: catalogue.fulfillments[i].end.time.timestamp
+                endTime: catalogue.fulfillments[i].end.time.timestamp,
+                isBooked: catalogue.fulfillments[i].isBooked != undefined
             }
             users.push(user)
         }
@@ -89,7 +90,9 @@ exports.Search = async (context, intent) => {
         var reqStartTime = new Date(intent.fulfillment.start.time.timestamp)
         var reqEndTime = new Date(intent.fulfillment.end.time.timestamp)
         for (let i = 0; i < catalogue.fulfillments.length; i++) {
-            if (validateFulfilmentTime(catalogue.fulfillments[i], reqStartTime, reqEndTime)) {
+            if (validateFulfilmentTime(catalogue.fulfillments[i], reqStartTime, reqEndTime) &&
+                validateFulfillmentTags(catalogue.fulfillments[i], intent.fulfillment.agent) &&
+                catalogue.fulfillments[i].isBooked == undefined) {
                 response.message.catalog.fulfillments.push(catalogue.fulfillments[i])
                 response.message.catalog.items.push(catalogue.items[i])
             }
@@ -165,8 +168,10 @@ exports.Confirm = async (context, order) => {
 
         for (let i = 0; i < catalogue.fulfillments.length; i++) {
             if (catalogue.fulfillments[i].id == order.fulfillment.id) {
-                catalogue.fulfillments.splice(i, 1)
-                catalogue.items.splice(i, 1)
+                catalogue.fulfillments[i].isBooked = true
+                catalogue.items[i].isBooked = true
+                // catalogue.fulfillments.splice(i, 1)
+                // catalogue.items.splice(i, 1)
             }
         }
 
@@ -213,6 +218,15 @@ function validateFulfilmentExists(fulfillment, item) {
     }
 
     return false
+}
+
+function validateFulfillmentTags(fulfillment, agent) {
+    for (key in agent.tags) {
+        if (!JSON.stringify(fulfillment.agent).includes(agent.tags[key])) {
+            return false
+        }
+    }
+    return true
 }
 
 function addMinutes(date, minutes) {

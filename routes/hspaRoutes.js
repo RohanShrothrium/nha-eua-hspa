@@ -27,7 +27,7 @@ app.post('/registerDoctor', async (req, resp) => {
         .then(result => resp.status(200).json(result))
 })
 
-app.get('/getDoctors', async (req, resp) => {
+app.post('/getDoctors', async (req, resp) => {
     hspaService.GetAppointments()
         .then(result => resp.status(200).json(result))
 })
