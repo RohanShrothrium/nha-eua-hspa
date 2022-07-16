@@ -31,41 +31,43 @@ async function registerDoctor() {
 }
 
 async function loadDoctors() {
-    let headers = new Headers();
-    headers.append('Content-Type', 'application/json');
-    headers.append('Accept', 'application/json');
-    headers.append('Access-Control-Allow-Origin', '*');
-    headers.append('Access-Control-Allow-Credentials', 'true');
-        const response = await fetch('https://f0ee-122-162-231-10.in.ngrok.io/hspa/getDoctors', {
-            method: 'GET',
-            headers: headers
-        });
+
+    var headers = new Headers();
+    headers.append('Accept', 'application/json'); // This one is enough for GET requests
+    headers.append('Content-Type', 'application/json'); // This one sends body
+
+    const response = await fetch('https://f0ee-122-162-231-10.in.ngrok.io/hspa/getDoctors', {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify({}),
+    });
+
+
     const data = await response.json();
     console.log(data)
-    // let data = doctorsResponse;
-    // for(let i = 0; i < doctorsResponse["users"].length; i++) {
-    //     let record = doctorsResponse["users"][i];
-    //     let index = i + 1;
-    //     let colour = 'success';
-    //     let status = 'Available';
-    //     if (index == 8 || index == 7) {
-    //         colour = 'danger';
-    //         status = 'Booked'
-    //     }
-    //     var recordHTML = `  <tr>
-    //                             <td>${index}</td>
-    //                             <td><a href="#"><img src="https://www.tutorialrepublic.com/examples/images/avatar/${index}.jpg" class="avatar" alt="Avatar">${record.name}</a></td>
-    //                             <td>${record.startTime}</td>                        
-    //                             <td>${record.type}</td>
-    //                             <td><span class="status text-${colour}">&bull;</span> ${status}</td>
-    //                             <td>
-    //                                 <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
-    //                                 <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
-    //                             </td>
-    //                         </tr>`
-    //     document.getElementById("dm-table-tbody").innerHTML += recordHTML;
-    //     console.log(recordHTML);
-    // }
+    for(let i = 0; i < data["users"].length; i++) {
+        let record = data["users"][i];
+        let index = (i%10 + 1);
+        let colour = 'success';
+        let status = 'Available';
+        if (index == 8 || index == 7) {
+            colour = 'danger';
+            status = 'Booked'
+        }
+        var recordHTML = `  <tr>
+                                <td>${index}</td>
+                                <td><a href="#"><img src="https://www.tutorialrepublic.com/examples/images/avatar/${index}.jpg" class="avatar" alt="Avatar">${record.name}</a></td>
+                                <td>${record.startTime}</td>                        
+                                <td>${record.type}</td>
+                                <td><span class="status text-${colour}">&bull;</span> ${status}</td>
+                                <td>
+                                    <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                                    <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                                </td>
+                            </tr>`
+        document.getElementById("dm-table-tbody").innerHTML += recordHTML;
+        console.log(recordHTML);
+    }
 
 }
 
