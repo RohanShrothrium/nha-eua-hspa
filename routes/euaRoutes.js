@@ -14,14 +14,18 @@ app.post('/hit_search', async (req, resp) => {
 
 app.post('/hit_init', async (req, resp) => {
     console.log('hit_init:  Chooses from list of catalogues. EUA hits HSPA init with booking data.')
-    const { fulfillment, item, transaction_id } = req.body
+    const { fulfillment, transaction_id } = req.body
+    const { item } = fulfillment;
+    delete fulfillment.item;
     euaService.hitInit(fulfillment, item, transaction_id)
         .then(result => resp.status(200).json(result))
 });
 
 app.post('/hit_confirm', async (req, resp) => {
     console.log('hit_init: EUA calls HSPA confirm with payment status.')
-    const { fulfillment, item, transaction_id } = req.body
+    const { fulfillment, transaction_id } = req.body
+    const { item } = fulfillment;
+    delete fulfillment.item;
     euaService.hitConfirm(fulfillment, item, transaction_id)
         .then(result => resp.status(200).json(result))
 });
@@ -47,5 +51,10 @@ app.post('/on_confirm', async (req, resp) => {
     euaService.onConfirm(context, message)
         .then(result => resp.status(200).json(result))
 });
+
+app.get('/confirmed_bookings', async (req, resp) => {
+    euaService.confirmedBookings()
+        .then(result => resp.status(200).json(result))
+})
 
 module.exports = app;

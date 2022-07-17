@@ -46,6 +46,240 @@
                 "value": "500.0"
             },
             "fulfillment_id": "3"
+        },
+        {
+            "id": "4",
+            "descriptor": {
+                "name": "Consultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "4",
+            "isBooked": true
+        },
+        {
+            "id": "5",
+            "descriptor": {
+                "name": "Consultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "5"
+        },
+        {
+            "id": "404cb0fd-366b-483e-8f0d-045997a8d62e",
+            "descriptor": {
+                "name": "teleconsult"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "404cb0fd-366b-483e-8f0d-045997a8d62e"
+        },
+        {
+            "id": "5e55641f-0145-4424-9a9c-38599f971455",
+            "descriptor": {
+                "name": "teleconsult"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "5e55641f-0145-4424-9a9c-38599f971455"
+        },
+        {
+            "id": "80b1f85b-27c7-42a7-9c53-91391b9dcef3",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "80b1f85b-27c7-42a7-9c53-91391b9dcef3"
+        },
+        {
+            "id": "af17511d-0ab3-46a5-a72e-22fc61f2ba03",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "af17511d-0ab3-46a5-a72e-22fc61f2ba03"
+        },
+        {
+            "id": "5a742eee-df0b-43aa-a221-521b4c2ce717",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "5a742eee-df0b-43aa-a221-521b4c2ce717",
+            "isBooked": true
+        },
+        {
+            "id": "c6128608-9dc0-48d4-8002-7dc8192fb8ff",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "c6128608-9dc0-48d4-8002-7dc8192fb8ff"
+        },
+        {
+            "id": "31d7df1e-71cb-483f-a64a-fe2d3a97d643",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "31d7df1e-71cb-483f-a64a-fe2d3a97d643",
+            "isBooked": true
+        },
+        {
+            "id": "5e0df669-a72c-402e-9415-551b86274870",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "5e0df669-a72c-402e-9415-551b86274870"
+        },
+        {
+            "id": "2be8c165-752c-4454-89cb-746584ff650e",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "2be8c165-752c-4454-89cb-746584ff650e"
+        },
+        {
+            "id": "edb1d9b7-4991-47a8-9eb8-07ffc2105cc4",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "edb1d9b7-4991-47a8-9eb8-07ffc2105cc4"
+        },
+        {
+            "id": "4f395644-da1e-4ec6-871b-1cc92506619f",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "4f395644-da1e-4ec6-871b-1cc92506619f"
+        },
+        {
+            "id": "02db5936-0f8a-4407-afd8-b7e6c1bf2f93",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "02db5936-0f8a-4407-afd8-b7e6c1bf2f93"
+        },
+        {
+            "id": "a3018b9e-159e-49cb-ae83-13bab79abf48",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "a3018b9e-159e-49cb-ae83-13bab79abf48"
+        },
+        {
+            "id": "b6020a9d-56d4-4195-9ce0-d4c7340e3fcf",
+            "descriptor": {
+                "name": "a"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "b6020a9d-56d4-4195-9ce0-d4c7340e3fcf"
+        },
+        {
+            "id": "88d5f979-38a7-447b-8754-29667db6481d",
+            "descriptor": {
+                "name": "Blood Test"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "88d5f979-38a7-447b-8754-29667db6481d"
+        },
+        {
+            "id": "9bea6e34-71cc-4c01-b519-24bd8354f7c4",
+            "descriptor": {
+                "name": "Blood Test"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "9bea6e34-71cc-4c01-b519-24bd8354f7c4"
+        },
+        {
+            "id": "98d58283-c703-4fb9-9e6f-02dbe3dd9262",
+            "descriptor": {
+                "name": "Blood Test"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "98d58283-c703-4fb9-9e6f-02dbe3dd9262"
+        },
+        {
+            "id": "6676b30f-40f0-4d9d-90e9-36720514c659",
+            "descriptor": {
+                "name": "RTPCR"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "6676b30f-40f0-4d9d-90e9-36720514c659"
+        },
+        {
+            "id": "1b2ae921-3911-4957-8b80-c146437794b2",
+            "descriptor": {
+                "name": "RTPCR"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "1b2ae921-3911-4957-8b80-c146437794b2"
         }
     ],
     "fulfillments": [
@@ -131,6 +365,7 @@
                     "@abdm/gov/in/signature": null
                 }
             },
+            "isBooked": true,
             "start": {
                 "time": {
                     "timestamp": "2022-06-22T16:00:00"
@@ -170,6 +405,410 @@
             "end": {
                 "time": {
                     "timestamp": "2022-06-22T17:00:00"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "type": "Lab Booking Thyroid",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-06-22T15:30:00"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-06-22T16:00:00"
+                }
+            },
+            "isBooked": true
+        },
+        {
+            "id": "5",
+            "type": "Lab Booking Thyroxin test",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-06-22T15:30:00"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-06-22T16:00:00"
+                }
+            }
+        },
+        {
+            "id": "80b1f85b-27c7-42a7-9c53-91391b9dcef3",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T09:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T10:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "af17511d-0ab3-46a5-a72e-22fc61f2ba03",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T10:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T10:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "5a742eee-df0b-43aa-a221-521b4c2ce717",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T10:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T11:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "c6128608-9dc0-48d4-8002-7dc8192fb8ff",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T11:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T11:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "31d7df1e-71cb-483f-a64a-fe2d3a97d643",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T11:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T12:00:00.000Z"
+                }
+            },
+            "isBooked": true
+        },
+        {
+            "id": "5e0df669-a72c-402e-9415-551b86274870",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T12:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T12:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "2be8c165-752c-4454-89cb-746584ff650e",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T12:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T13:00:00.000Z"
+                }
+            },
+            "isBooked": true
+        },
+        {
+            "id": "edb1d9b7-4991-47a8-9eb8-07ffc2105cc4",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T13:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T13:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "4f395644-da1e-4ec6-871b-1cc92506619f",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T13:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T14:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "02db5936-0f8a-4407-afd8-b7e6c1bf2f93",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T14:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T14:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "a3018b9e-159e-49cb-ae83-13bab79abf48",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "test123",
+                "name": "Dr. Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T14:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T15:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "6676b30f-40f0-4d9d-90e9-36720514c659",
+            "type": "Lab Booking RTPCR",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T11:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T12:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "1b2ae921-3911-4957-8b80-c146437794b2",
+            "type": "Lab Booking RTPCR",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-17T12:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-17T12:30:00.000Z"
                 }
             }
         }

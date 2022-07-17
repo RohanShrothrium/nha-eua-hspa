@@ -27,8 +27,19 @@ app.post('/registerDoctor', async (req, resp) => {
         .then(result => resp.status(200).json(result))
 })
 
+app.post('/registerLabTest', async (req, resp) => {
+    const { id, name, gender, startTime, endTime, type } = req.body
+    hspaService.RegisterLabTest(startTime, endTime, type)
+        .then(result => resp.status(200).json(result))
+})
+
 app.post('/getDoctors', async (req, resp) => {
     hspaService.GetAppointments()
+        .then(result => resp.status(200).json(result))
+})
+
+app.post('/getLabTests', async (req, resp) => {
+    hspaService.GetLabBookings()
         .then(result => resp.status(200).json(result))
 })
 

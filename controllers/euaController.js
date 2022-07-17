@@ -45,7 +45,31 @@ exports.hitSearch = async (message) => {
 
         let itemsData = fs.readFileSync(path.join(__dirname, '..', 'db', 'items', searchJSON.context.transaction_id + '.json'))
         let items = JSON.parse(itemsData)
-        return { fulfillments, items, transaction_id: searchJSON.context.transaction_id }
+
+        agentMap = {}
+        for (var i = 0; i < fulfillments.length; i++) {
+            if (agentMap[fulfillments[i].agent.id] == undefined) {
+                agentMap[fulfillments[i].agent.id] = [
+                    {
+                        ...fulfillments[i],
+                        item: items[i]
+                    }
+                ]
+            } else {
+                agentMap[fulfillments[i].agent.id].push(
+                    {
+                        ...fulfillments[i],
+                        item: items[i]
+                    }
+                )
+            }
+        }
+        var resp = []
+        for (var key in agentMap) {
+            resp.push(agentMap[key])
+        }
+
+        return { fulfillments: resp, transaction_id: searchJSON.context.transaction_id }
 
     } catch (err) {
         return { err }
@@ -65,7 +89,7 @@ exports.hitInit = async (fulfillment, item, transaction_id) => {
         let fulfillmentMap = JSON.parse(fulfillmentMapData)
 
         // var x = (JSON.stringify(fulfillment) + JSON.stringify(item)).split('').sort().join('').replace(/\s/g, '')
-        var hspaUri = fulfillmentMap[fulfillment]
+        var hspaUri = fulfillmentMap[fulfillment.id]
 
         //Sonu should pass transaction id right then? YES Woohoooo!!! I love
         // send post request to HSPA Init
@@ -97,7 +121,7 @@ exports.hitConfirm = async (fulfillment, item, transaction_id) => {
         let fulfillmentMapData = fs.readFileSync(path.join(__dirname, '..', 'db', 'fm', transaction_id + '.json'))
         let fulfillmentMap = JSON.parse(fulfillmentMapData)
 
-        var hspaUri = fulfillmentMap[fulfillment]
+        var hspaUri = fulfillmentMap[fulfillment.id]
 
         // send post request to HSPA Init
         res = await axios.post(hspaUri + '/confirm', confirmJSON)
@@ -129,7 +153,7 @@ exports.onSearch = async (context, message) => {
             fulfillmentMap = JSON.parse(fmData)
 
             for (var i = 0; i < fulfillments.length; i++) {
-                fulfillmentMap[fulfillments[i]] = context.provider_uri
+                fulfillmentMap[fulfillments[i].id] = context.provider_uri
             }
             fs.writeFile(fulfillmentMapPath, JSON.stringify(fulfillmentMap), function (err) {
                 if (err) throw err;
@@ -173,7 +197,7 @@ exports.onSearch = async (context, message) => {
 
             fulfillmentMap = {}
             for (var i = 0; i < fulfillments.length; i++) {
-                fulfillmentMap[fulfillments[i]] = context.provider_uri
+                fulfillmentMap[fulfillments[i].id] = context.provider_uri
             }
             fs.writeFile(fulfillmentMapPath, JSON.stringify(fulfillmentMap), function (err) {
                 if (err) throw err;
@@ -216,4 +240,19 @@ exports.onConfirm = async (context, message) => {
     } catch (err) {
         return { err }
     }
+}
+
+exports.confirmedBookings = async () => {
+    var bookings = []
+    const confirmDirPath = path.join(__dirname, '..', 'db', 'confirm')
+    fs.readdirSync(confirmDirPath).forEach(file => {
+        let rawdata = fs.readFileSync(confirmDirPath + '/' + file);
+        let confirmedBooking = JSON.parse(rawdata);
+        bookings.push({
+            fulfillment: confirmedBooking.message.order.fulfillment,
+            payment: confirmedBooking.message.order.fulfillment,
+        })
+    })
+
+    return { status: "success", bookings }
 }
