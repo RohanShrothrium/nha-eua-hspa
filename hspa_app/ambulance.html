@@ -186,14 +186,14 @@ $(document).ready(function(){
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="/index.html"><h6><b>Doctors</b></h6></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/lab_tests.html"><h6><b>Lab Tests</b></h6></a>
+            </li>
             <li class="nav-item active">
-                <a class="nav-link" href="/index.html"><h6><b>Doctors</b></h6></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/lab_tests.html"><h6><b>Lab Tests</b></h6></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/ambulance.html"><h6><b>Ambulance</b></h6></a>
+              <a class="nav-link" href="/ambulance.html"><h6><b>Ambulance</b></h6></a>
             </li>
           </ul>
         </div>
@@ -204,14 +204,14 @@ $(document).ready(function(){
             <div class="table-title">
                 <div class="row">
                     <div class="col-sm-5">
-                        <h2><b>Doctors </b></h2>
+                        <h2><b>Ambulances </b></h2>
                     </div>
                     <div class="col-sm-7">
                         <div class="col-sm-6">
                             <!-- <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Add New Employee</span></a> -->
                             <!-- <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Delete</span></a>						 -->
                         </div>
-                        <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Add New Doctor</span></a>
+                        <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Add New Ambulance</span></a>
                         <a href="#" class="btn btn-secondary"><i class="material-icons">&#xE24D;</i> <span>Export Records</span></a>						
                     </div>
                 </div>
@@ -220,40 +220,20 @@ $(document).ready(function(){
 <div id="addEmployeeModal" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
-			<form id="add-doctor-form">
+			<form id="add-ambulance-form">
 				<div class="modal-header">						
-					<h4 class="modal-title">Add Doctor</h4>
+					<h4 class="modal-title">Add Ambulance</h4>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body">					
-					<div class="form-group">
-						<label>Name</label>
-						<input type="text" name="doctor-form-name" class="form-control" required>
-					</div>
-					<div class="form-group">
-						<label>Id</label>
-						<input type="text" name="doctor-form-id" class="form-control" required>
-					</div>
-					<div class="form-group">
-						<label>Gender</label>
-                        <input type="text" name="doctor-form-gender" class="form-control" required>
-					</div>
                     <div class="form-group">
-						<label>Type</label>
-                        <input type="text" name="doctor-form-type" class="form-control" required>
-					</div>
-					<div class="form-group">
-						<label>Start Slot Time</label>
-						<input type="datetime-local"  name="doctor-form-slottimestart" class="form-control" required>
-					</div>
-                    <div class="form-group">
-						<label>End Slot Time</label>
-						<input type="datetime-local"  name="doctor-form-slottimeend" class="form-control" required>
-					</div>					
+						<label>Vehicle Number</label>
+                        <input type="text" name="ambulance-form-vehiclenumber" class="form-control" required>
+					</div>				
 				</div>
 				<div class="modal-footer">
 					<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-					<input type="button" class="btn btn-success" value="Add" onclick="registerDoctor()">
+					<input type="button" class="btn btn-success" value="Add" onclick="registerAmbulance()">
 				</div>
 			</form>
 		</div>
@@ -263,9 +243,8 @@ $(document).ready(function(){
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>Name</th>						
-                        <th>Slot Time</th>
-                        <th>Type</th>
+                        <th>VehicleNumber</th>
+                        <!-- <th>Type</th> -->
                         <th>Status</th>
                         <th>Action</th>
                     </tr>
@@ -276,6 +255,6 @@ $(document).ready(function(){
         </div>
     </div>
 </div> 
-<script src="index.js"></script>    
+<script src="ambulance.js"></script>    
 </body>
 </html>
