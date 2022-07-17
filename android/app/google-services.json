@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "349053286756",
+    "project_id": "doconline-ce906",
+    "storage_bucket": "doconline-ce906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349053286756:android:cc68a8e2e3532f52166271",
+        "android_client_info": {
+          "package_name": "com.example.patientdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349053286756-bjc2etbtj4j979jt8prf62egdn0qlva3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patientdemo",
+            "certificate_hash": "5a6cca74e40b3d459f24bc769cabb0d0a28385ea"
+          }
+        },
+        {
+          "client_id": "349053286756-vsbkmgsspmoi90nnpfrl8e27ri1gvgt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHCveQXqc5eW38P_gJm6RoaV0XJcYve9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349053286756-vsbkmgsspmoi90nnpfrl8e27ri1gvgt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
