@@ -59,7 +59,7 @@ async function loadDoctorById() {
                                             </div>
                                         </div>
                                         <div class="col-md-6 text-center">
-                                            <h5 class="mb-4">Physical Consultation</h5>
+                                            <h5 class="mb-4">${record.type}</h5>
                                         </div>
                                         <div class="col-md-2">
                                             <h5 class="mb-4"><span class="badge badge-${colour} ml-3">${status}</span></h5>
