@@ -48,20 +48,38 @@ exports.hitSearch = async (message) => {
 
         agentMap = {}
         for (var i = 0; i < fulfillments.length; i++) {
-            if (agentMap[fulfillments[i].agent.id] == undefined) {
-                agentMap[fulfillments[i].agent.id] = [
-                    {
-                        ...fulfillments[i],
-                        item: items[i]
-                    }
-                ]
+            if (!fulfillments[i].type.includes("Lab Booking")) {
+                if (agentMap[fulfillments[i].agent.id] == undefined) {
+                    agentMap[fulfillments[i].agent.id] = [
+                        {
+                            ...fulfillments[i],
+                            item: items[i]
+                        }
+                    ]
+                } else {
+                    agentMap[fulfillments[i].agent.id].push(
+                        {
+                            ...fulfillments[i],
+                            item: items[i]
+                        }
+                    )
+                }
             } else {
-                agentMap[fulfillments[i].agent.id].push(
-                    {
-                        ...fulfillments[i],
-                        item: items[i]
-                    }
-                )
+                if (agentMap[fulfillments[i].type] == undefined) {
+                    agentMap[fulfillments[i].type] = [
+                        {
+                            ...fulfillments[i],
+                            item: items[i]
+                        }
+                    ]
+                } else {
+                    agentMap[fulfillments[i].type].push(
+                        {
+                            ...fulfillments[i],
+                            item: items[i]
+                        }
+                    )
+                }
             }
         }
         var resp = []
