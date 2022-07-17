@@ -50,13 +50,14 @@ async function loadDoctors() {
         let index = (i%10 + 1);
         let colour = 'success';
         let status = 'Available';
-        if (index == 8 || index == 7) {
+        if (record.isBooked) {
             colour = 'danger';
             status = 'Booked'
         }
+        // <td><a href="#"><img src="https://www.tutorialrepublic.com/examples/images/avatar/${index}.jpg" class="avatar" alt="Avatar">${record.name}</a></td>
         var recordHTML = `  <tr>
-                                <td>${index}</td>
-                                <td><a href="#"><img src="https://www.tutorialrepublic.com/examples/images/avatar/${index}.jpg" class="avatar" alt="Avatar">${record.name}</a></td>
+                                <td>${i}</td>
+                                <td><a href="/calendar.html?doctorId=${i}">${record.name}</a></td>
                                 <td>${record.startTime}</td>                        
                                 <td>${record.type}</td>
                                 <td><span class="status text-${colour}">&bull;</span> ${status}</td>
@@ -66,97 +67,97 @@ async function loadDoctors() {
                                 </td>
                             </tr>`
         document.getElementById("dm-table-tbody").innerHTML += recordHTML;
-        console.log(recordHTML);
+        // console.log(recordHTML);
     }
 
 }
 
 
 
-const doctorsResponse = {
-    "status": "success",
-    "users": [
-        {
-            "name": "sonu.sourav@hpr.abdm - Sonu Sourav",
-            "id": "sonu.sourav@hpr.abdm",
-            "gender": "M",
-            "type": "Teleconsultation",
-            "startTime": "2022-06-22T15:30:00",
-            "endTime": "2022-06-22T16:00:00"
-        },
-        {
-            "name": "sonu.sourav@hpr.abdm - Sonu Sourav",
-            "id": "sonu.sourav@hpr.abdm",
-            "gender": "M",
-            "type": "Teleconsultation",
-            "startTime": "2022-06-22T16:00:00",
-            "endTime": "2022-06-22T16:30:00"
-        },
-        {
-            "name": "praveen.sv@hpr.abdm - Praveen S V",
-            "id": "praveen.sv@hpr.abdm",
-            "gender": "M",
-            "type": "Teleconsultation",
-            "startTime": "2022-06-22T16:00:00",
-            "endTime": "2022-06-22T16:30:00"
-        },
-        {
-            "name": "rohan.shrothrium@hpr.abdm - Rohan Shrothrium",
-            "id": "rohan.shrothrium@hpr.abdm",
-            "gender": "M",
-            "type": "Teleconsultation",
-            "startTime": "2022-06-22T16:30:00",
-            "endTime": "2022-06-22T17:00:00"
-        },
-        {
-            "name": "Dr. Rohan S",
-            "id": "abcd",
-            "gender": "M",
-            "type": "teleconsult",
-            "startTime": "2022-07-16T12:00:00.000Z",
-            "endTime": "2022-07-16T12:30:00.000Z"
-        },
-        {
-            "name": "Dr. Rohan S",
-            "id": "abcd",
-            "gender": "M",
-            "type": "teleconsult",
-            "startTime": "2022-07-16T12:30:00.000Z",
-            "endTime": "2022-07-16T13:00:00.000Z"
-        },
-        {
-            "name": "Dr. Rohan S",
-            "id": "abcd",
-            "gender": "M",
-            "type": "teleconsult",
-            "startTime": "2022-07-16T13:00:00.000Z",
-            "endTime": "2022-07-16T13:30:00.000Z"
-        },
-        {
-            "name": "Dr. XYZ",
-            "id": "abcd",
-            "gender": "M",
-            "type": "teleconsult",
-            "startTime": "2022-07-16T12:00:00.000Z",
-            "endTime": "2022-07-16T12:30:00.000Z"
-        },
-        {
-            "name": "Dr. XYZ",
-            "id": "abcd",
-            "gender": "M",
-            "type": "teleconsult",
-            "startTime": "2022-07-16T12:30:00.000Z",
-            "endTime": "2022-07-16T13:00:00.000Z"
-        },
-        {
-            "name": "Dr. XYZ",
-            "id": "abcd",
-            "gender": "M",
-            "type": "teleconsult",
-            "startTime": "2022-07-16T13:00:00.000Z",
-            "endTime": "2022-07-16T13:30:00.000Z"
-        }
-    ]
-}
+// const doctorsResponse = {
+//     "status": "success",
+//     "users": [
+//         {
+//             "name": "sonu.sourav@hpr.abdm - Sonu Sourav",
+//             "id": "sonu.sourav@hpr.abdm",
+//             "gender": "M",
+//             "type": "Teleconsultation",
+//             "startTime": "2022-06-22T15:30:00",
+//             "endTime": "2022-06-22T16:00:00"
+//         },
+//         {
+//             "name": "sonu.sourav@hpr.abdm - Sonu Sourav",
+//             "id": "sonu.sourav@hpr.abdm",
+//             "gender": "M",
+//             "type": "Teleconsultation",
+//             "startTime": "2022-06-22T16:00:00",
+//             "endTime": "2022-06-22T16:30:00"
+//         },
+//         {
+//             "name": "praveen.sv@hpr.abdm - Praveen S V",
+//             "id": "praveen.sv@hpr.abdm",
+//             "gender": "M",
+//             "type": "Teleconsultation",
+//             "startTime": "2022-06-22T16:00:00",
+//             "endTime": "2022-06-22T16:30:00"
+//         },
+//         {
+//             "name": "rohan.shrothrium@hpr.abdm - Rohan Shrothrium",
+//             "id": "rohan.shrothrium@hpr.abdm",
+//             "gender": "M",
+//             "type": "Teleconsultation",
+//             "startTime": "2022-06-22T16:30:00",
+//             "endTime": "2022-06-22T17:00:00"
+//         },
+//         {
+//             "name": "Dr. Rohan S",
+//             "id": "abcd",
+//             "gender": "M",
+//             "type": "teleconsult",
+//             "startTime": "2022-07-16T12:00:00.000Z",
+//             "endTime": "2022-07-16T12:30:00.000Z"
+//         },
+//         {
+//             "name": "Dr. Rohan S",
+//             "id": "abcd",
+//             "gender": "M",
+//             "type": "teleconsult",
+//             "startTime": "2022-07-16T12:30:00.000Z",
+//             "endTime": "2022-07-16T13:00:00.000Z"
+//         },
+//         {
+//             "name": "Dr. Rohan S",
+//             "id": "abcd",
+//             "gender": "M",
+//             "type": "teleconsult",
+//             "startTime": "2022-07-16T13:00:00.000Z",
+//             "endTime": "2022-07-16T13:30:00.000Z"
+//         },
+//         {
+//             "name": "Dr. XYZ",
+//             "id": "abcd",
+//             "gender": "M",
+//             "type": "teleconsult",
+//             "startTime": "2022-07-16T12:00:00.000Z",
+//             "endTime": "2022-07-16T12:30:00.000Z"
+//         },
+//         {
+//             "name": "Dr. XYZ",
+//             "id": "abcd",
+//             "gender": "M",
+//             "type": "teleconsult",
+//             "startTime": "2022-07-16T12:30:00.000Z",
+//             "endTime": "2022-07-16T13:00:00.000Z"
+//         },
+//         {
+//             "name": "Dr. XYZ",
+//             "id": "abcd",
+//             "gender": "M",
+//             "type": "teleconsult",
+//             "startTime": "2022-07-16T13:00:00.000Z",
+//             "endTime": "2022-07-16T13:30:00.000Z"
+//         }
+//     ]
+// }
 
 loadDoctors();
