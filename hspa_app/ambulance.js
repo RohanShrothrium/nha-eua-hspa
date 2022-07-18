@@ -1,9 +1,9 @@
-console.log('Hello world');
+// console.log('Hello world');
 
 async function registerAmbulance() {
     var ambulanceVehicleNumber = document.querySelector("#add-ambulance-form [name='ambulance-form-vehiclenumber']").value;
     var formJSON = {vehicleNumber: ambulanceVehicleNumber};
-    console.log(formJSON);
+    // console.log(formJSON);
 
     try {
         var headers = new Headers();
@@ -15,12 +15,12 @@ async function registerAmbulance() {
             body: JSON.stringify(formJSON),
         });
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
         
         //call loadambulances
 
     } catch(error) {
-        console.log(error)
+        // console.log(error)
     }
 }
 
@@ -38,7 +38,7 @@ async function loadAmbulances() {
 
 
     const data = await response.json();
-    console.log(data)
+    // console.log(data)
     for(let i = 0; i < data["users"].length; i++) {
         let record = data["users"][i];
         let index = (i%10 + 1);
@@ -58,7 +58,7 @@ async function loadAmbulances() {
                                 </td>
                             </tr>`
         document.getElementById("dm-table-tbody").innerHTML += recordHTML;
-        // console.log(recordHTML);
+        // // console.log(recordHTML);
     }
 
 }

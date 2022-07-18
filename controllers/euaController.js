@@ -37,7 +37,7 @@ exports.hitSearch = async (message) => {
 
         // send post request to gateway
         res = await axios.post('http://121.242.73.120:8083/api/v1/search', searchJSON)
-        console.log(res.data);
+        // console.log(res.data);
         await sleep(hitDelaySeconds)
         //read catalogue (fulfillments + items) responses
         let fulfillmentsData = fs.readFileSync(path.join(__dirname, '..', 'db', 'fulfillments', searchJSON.context.transaction_id + '.json'))
@@ -112,7 +112,7 @@ exports.hitInit = async (fulfillment, item, transaction_id) => {
         //Sonu should pass transaction id right then? YES Woohoooo!!! I love
         // send post request to HSPA Init
         res = await axios.post(hspaUri + '/init', initJSON)
-        console.log(res.data);
+        // console.log(res.data);
         await sleep(hitDelaySeconds)
 
         //read bill
@@ -143,7 +143,7 @@ exports.hitConfirm = async (fulfillment, item, transaction_id) => {
 
         // send post request to HSPA Init
         res = await axios.post(hspaUri + '/confirm', confirmJSON)
-        console.log(res.data);
+        // console.log(res.data);
         await sleep(hitDelaySeconds)
 
         //read bill
@@ -175,7 +175,7 @@ exports.onSearch = async (context, message) => {
             }
             fs.writeFile(fulfillmentMapPath, JSON.stringify(fulfillmentMap), function (err) {
                 if (err) throw err;
-                console.log("It's saved!");
+                // console.log("It's saved!");
                 // file written successfully
             });
 
@@ -185,7 +185,7 @@ exports.onSearch = async (context, message) => {
             const itemsString = JSON.stringify(newItems)
             fs.writeFile(itemFilePath, itemsString, function (err) {
                 if (err) throw err;
-                console.log("It's saved!");
+                // console.log("It's saved!");
                 // file written successfully
             });
 
@@ -195,21 +195,21 @@ exports.onSearch = async (context, message) => {
             const fulfillmentsString = JSON.stringify(newFulfillments)
             fs.writeFile(fulfillmentsFilePath, fulfillmentsString, function (err) {
                 if (err) throw err;
-                console.log("It's saved!");
+                // console.log("It's saved!");
                 // file written successfully
             });
         } else {
             const itemsString = JSON.stringify(items)
             fs.writeFile(itemFilePath, itemsString, function (err) {
                 if (err) throw err;
-                console.log("It's saved!");
+                // console.log("It's saved!");
                 // file written successfully
             });
 
             const fulfillmentsString = JSON.stringify(fulfillments)
             fs.writeFile(fulfillmentsFilePath, fulfillmentsString, function (err) {
                 if (err) throw err;
-                console.log("It's saved!");
+                // console.log("It's saved!");
                 // file written successfully
             });
 
@@ -219,7 +219,7 @@ exports.onSearch = async (context, message) => {
             }
             fs.writeFile(fulfillmentMapPath, JSON.stringify(fulfillmentMap), function (err) {
                 if (err) throw err;
-                console.log("It's saved!");
+                // console.log("It's saved!");
                 // file written successfully
             });
         }
@@ -235,7 +235,7 @@ exports.onInit = async (context, message) => {
         const initString = JSON.stringify({ context, message })
         fs.writeFile(initFilePath, initString, function (err) {
             if (err) throw err;
-            console.log("It's saved!");
+            // console.log("It's saved!");
             // file written successfully
         });
         return { success: "true" }
@@ -251,7 +251,7 @@ exports.onConfirm = async (context, message) => {
         const confirmString = JSON.stringify({ context, message })
         fs.writeFile(confirmFilePath, confirmString, function (err) {
             if (err) throw err;
-            console.log("It's saved!");
+            // console.log("It's saved!");
             // file written successfully
         });
         return { success: "true" }

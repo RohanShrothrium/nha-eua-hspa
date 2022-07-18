@@ -1,5 +1,6 @@
 const express = require('express');
 const multer = require('multer');
+const morgan = require('morgan');
 const cors = require('cors');
 const hspaRoutes = require('./routes/hspaRoutes');
 const euRoutes = require('./routes/euaRoutes');
@@ -7,6 +8,8 @@ const euRoutes = require('./routes/euaRoutes');
 const app = express();
 // for parsing application/json
 app.use(express.json());
+
+app.use(morgan('dev'));
 
 const corsOpts = {
   origin: '*',
@@ -45,9 +48,9 @@ port = 8080
 
 const server = app.listen(port, (err) => {
     if (err) {
-      console.log(`Error while starting the app -  ${err}`);
+      // console.log(`Error while starting the app -  ${err}`);
     }
-    console.log(`Running server on port - ${port}`);
+    // console.log(`Running server on port - ${port}`);
 });
 
 module.exports = app;

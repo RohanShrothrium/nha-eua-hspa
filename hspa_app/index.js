@@ -1,4 +1,4 @@
-console.log('Hello world');
+// console.log('Hello world');
 
 async function registerDoctor() {
     var doctorName = document.querySelector("#add-doctor-form [name='doctor-form-name']").value;
@@ -9,7 +9,7 @@ async function registerDoctor() {
     var doctorType = document.querySelector("#add-doctor-form [name='doctor-form-type']").value;
     var formJSON = {name: doctorName, id: doctorId, gender: doctorGender, type: doctorType,
                     startTime: doctorSlotTimeStart, endTime: doctorSlotTimeEnd};
-    console.log(formJSON);
+    // console.log(formJSON);
 
     try {
         var headers = new Headers();
@@ -21,12 +21,12 @@ async function registerDoctor() {
             body: JSON.stringify(formJSON),
         });
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
         
         //call loadDoctors
 
     } catch(error) {
-        console.log(error)
+        // console.log(error)
     }
 }
 
@@ -44,7 +44,7 @@ async function loadDoctors() {
 
 
     const data = await response.json();
-    console.log(data)
+    // console.log(data)
     for(let i = 0; i < data["users"].length; i++) {
         let record = data["users"][i];
         let index = (i%10 + 1);
@@ -67,7 +67,7 @@ async function loadDoctors() {
                                 </td>
                             </tr>`
         document.getElementById("dm-table-tbody").innerHTML += recordHTML;
-        // console.log(recordHTML);
+        // // console.log(recordHTML);
     }
 
 }

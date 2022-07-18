@@ -1,1 +1,1095 @@
-{"descriptor":{"name":"thecodingcompany"},"items":[{"id":"43628a59-d17f-4a26-a905-7e6b47779148","descriptor":{"name":"Teleconsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"43628a59-d17f-4a26-a905-7e6b47779148"},{"id":"852eaf4e-961f-47f5-bfa6-84c601e7dd7d","descriptor":{"name":"Teleconsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"852eaf4e-961f-47f5-bfa6-84c601e7dd7d"},{"id":"501240c9-ef51-40bc-9832-54a1ea84a0f6","descriptor":{"name":"Teleconsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"501240c9-ef51-40bc-9832-54a1ea84a0f6"},{"id":"8208499a-7d1a-47bb-b508-39053ee631dc","descriptor":{"name":"PhysicalConsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"8208499a-7d1a-47bb-b508-39053ee631dc"},{"id":"eb53a162-5e25-4b71-b273-41ea37ff7542","descriptor":{"name":"PhysicalConsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"eb53a162-5e25-4b71-b273-41ea37ff7542"},{"id":"88bd1e78-f917-49c2-b475-b0bba4b4a53a","descriptor":{"name":"Teleconsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"88bd1e78-f917-49c2-b475-b0bba4b4a53a","isBooked":true},{"id":"d247611f-05bf-492a-93b5-57545527be4b","descriptor":{"name":"Teleconsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"d247611f-05bf-492a-93b5-57545527be4b"},{"id":"337c1c55-b0c6-472b-857e-69949312094e","descriptor":{"name":"Thyroxine"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"337c1c55-b0c6-472b-857e-69949312094e"},{"id":"6d30495d-4631-409b-a574-0e916546af76","descriptor":{"name":"Thyroxine"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"6d30495d-4631-409b-a574-0e916546af76"},{"id":"a21c719c-7162-447b-95fb-c3d9cff8c686","descriptor":{"name":"Thyroxine"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"a21c719c-7162-447b-95fb-c3d9cff8c686"},{"id":"35c489b4-6f11-4707-840b-c93d8dfcb377","descriptor":{"name":"Thyroid"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"35c489b4-6f11-4707-840b-c93d8dfcb377"},{"id":"1e8cad30-c1e8-48b0-835a-5e593adeff44","descriptor":{"name":"Thyroid"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"1e8cad30-c1e8-48b0-835a-5e593adeff44"},{"id":"f9994f3c-6074-432f-8586-eb4239559fe8","descriptor":{"name":"Thyroid"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"f9994f3c-6074-432f-8586-eb4239559fe8"},{"id":"d1c2e520-d9d8-442c-bab2-23e827766bc6","descriptor":{"name":"CBC Blood "},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"d1c2e520-d9d8-442c-bab2-23e827766bc6"},{"id":"218b41d6-9cac-456e-9ca4-7da2b92fa2bf","descriptor":{"name":"CBC Blood "},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"218b41d6-9cac-456e-9ca4-7da2b92fa2bf"},{"id":"f49bc694-0478-42b9-8687-51f3861cd5a9","descriptor":{"name":"CBC Blood "},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"f49bc694-0478-42b9-8687-51f3861cd5a9"},{"id":"ff2ec7d3-6ed2-43d6-9eb6-718eca995d52","descriptor":{"name":"Blood Platelet Count"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"ff2ec7d3-6ed2-43d6-9eb6-718eca995d52"},{"id":"4c4d034c-2e76-43fa-8a15-a7e0ad5259ed","descriptor":{"name":"Blood Platelet Count"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"4c4d034c-2e76-43fa-8a15-a7e0ad5259ed"},{"id":"09e73ce0-3b31-461f-a140-e10b262b475f","descriptor":{"name":"Blood Platelet Count"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"09e73ce0-3b31-461f-a140-e10b262b475f"},{"id":"beadbd72-8516-40e4-8333-28cf820c8bee","descriptor":{"name":"Ambulance - KA 04 MD 1234"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"beadbd72-8516-40e4-8333-28cf820c8bee","isBooked":true},{"id":"8f032520-ffcb-4640-81f8-1142dc829922","descriptor":{"name":"Ambulance - KA 01 MD 4567"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"8f032520-ffcb-4640-81f8-1142dc829922"},{"id":"4be4d938-80e8-4518-89a9-da64b7ff97f4","descriptor":{"name":"Ambulance - KA 03 AB 8901"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"4be4d938-80e8-4518-89a9-da64b7ff97f4"},{"id":"d5a0dad0-9745-4e27-85e6-fed3d52b497c","descriptor":{"name":"PhysicalConsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"d5a0dad0-9745-4e27-85e6-fed3d52b497c"},{"id":"d91bd97c-98cb-4638-ad77-c4c40de1e037","descriptor":{"name":"PhysicalConsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"d91bd97c-98cb-4638-ad77-c4c40de1e037"},{"id":"374aadb6-6152-45e1-a1a1-da5189d3ea9d","descriptor":{"name":"PhysicalConsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"374aadb6-6152-45e1-a1a1-da5189d3ea9d"},{"id":"897fd18d-87ef-412b-99cb-58f67969c462","descriptor":{"name":"PhysicalConsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"897fd18d-87ef-412b-99cb-58f67969c462","isBooked":true},{"id":"39577839-5eb5-460e-8ad8-a8a3884ad845","descriptor":{"name":"PhysicalConsultation"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"39577839-5eb5-460e-8ad8-a8a3884ad845"},{"id":"f7421b33-00b5-4c84-b329-4b4014051c6f","descriptor":{"name":"Thyroxine"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"f7421b33-00b5-4c84-b329-4b4014051c6f"},{"id":"ec6e1b8e-f643-402d-898a-2c78a2927041","descriptor":{"name":"Thyroxine"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"ec6e1b8e-f643-402d-898a-2c78a2927041"},{"id":"7f1d1376-03ac-481c-b94a-b65c3754cf37","descriptor":{"name":"Thyroxine"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"7f1d1376-03ac-481c-b94a-b65c3754cf37","isBooked":true},{"id":"e5402eeb-05c7-4799-941c-e667ab4488a9","descriptor":{"name":"Thyroxine"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"e5402eeb-05c7-4799-941c-e667ab4488a9"},{"id":"32432981-f2e4-40f3-825d-24bd34544028","descriptor":{"name":"Thyroxine"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"32432981-f2e4-40f3-825d-24bd34544028"},{"id":"413da2e6-7eeb-4b35-aa04-d4c50733842b","descriptor":{"name":"Ambulance - KA 03 AB 9999"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"413da2e6-7eeb-4b35-aa04-d4c50733842b"},{"id":"0cff2f0a-fb48-4f2e-92fb-590439b0f8a5","descriptor":{"name":"Ambulance - KA 03 AB 0000"},"price":{"currency":"INR","value":"500.0"},"fulfillment_id":"0cff2f0a-fb48-4f2e-92fb-590439b0f8a5"}],"fulfillments":[{"id":"43628a59-d17f-4a26-a905-7e6b47779148","type":"Teleconsultation","agent":{"id":"praveen.sv@hpr.abdm","name":"Dr. Praveen S V","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T03:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T04:00:00.000Z"}}},{"id":"852eaf4e-961f-47f5-bfa6-84c601e7dd7d","type":"Teleconsultation","agent":{"id":"praveen.sv@hpr.abdm","name":"Dr. Praveen S V","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T04:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T04:30:00.000Z"}}},{"id":"501240c9-ef51-40bc-9832-54a1ea84a0f6","type":"Teleconsultation","agent":{"id":"praveen.sv@hpr.abdm","name":"Dr. Praveen S V","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T04:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T05:00:00.000Z"}}},{"id":"8208499a-7d1a-47bb-b508-39053ee631dc","type":"PhysicalConsultation","agent":{"id":"sonu.sourav@hpr.abdm","name":"Dr Sonu S","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T04:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T05:00:00.000Z"}}},{"id":"eb53a162-5e25-4b71-b273-41ea37ff7542","type":"PhysicalConsultation","agent":{"id":"sonu.sourav@hpr.abdm","name":"Dr Sonu S","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T05:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T05:30:00.000Z"}}},{"id":"88bd1e78-f917-49c2-b475-b0bba4b4a53a","type":"Teleconsultation","agent":{"id":"rohan.shrothrium@hpr.abdm","name":"Dr Rohan S","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T05:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T06:00:00.000Z"}},"isBooked":true},{"id":"d247611f-05bf-492a-93b5-57545527be4b","type":"Teleconsultation","agent":{"id":"rohan.shrothrium@hpr.abdm","name":"Dr Rohan S","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T06:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T06:30:00.000Z"}}},{"id":"337c1c55-b0c6-472b-857e-69949312094e","type":"Lab Booking Thyroxine","agent":{},"start":{"time":{"timestamp":"2022-07-18T08:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T09:00:00.000Z"}}},{"id":"6d30495d-4631-409b-a574-0e916546af76","type":"Lab Booking Thyroxine","agent":{},"start":{"time":{"timestamp":"2022-07-18T09:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T09:30:00.000Z"}}},{"id":"a21c719c-7162-447b-95fb-c3d9cff8c686","type":"Lab Booking Thyroxine","agent":{},"start":{"time":{"timestamp":"2022-07-18T09:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T10:00:00.000Z"}}},{"id":"35c489b4-6f11-4707-840b-c93d8dfcb377","type":"Lab Booking Thyroid","agent":{},"start":{"time":{"timestamp":"2022-07-18T08:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T09:00:00.000Z"}}},{"id":"1e8cad30-c1e8-48b0-835a-5e593adeff44","type":"Lab Booking Thyroid","agent":{},"start":{"time":{"timestamp":"2022-07-18T09:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T09:30:00.000Z"}}},{"id":"f9994f3c-6074-432f-8586-eb4239559fe8","type":"Lab Booking Thyroid","agent":{},"start":{"time":{"timestamp":"2022-07-18T09:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T10:00:00.000Z"}}},{"id":"d1c2e520-d9d8-442c-bab2-23e827766bc6","type":"Lab Booking CBC Blood ","agent":{},"start":{"time":{"timestamp":"2022-07-18T08:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T09:00:00.000Z"}}},{"id":"218b41d6-9cac-456e-9ca4-7da2b92fa2bf","type":"Lab Booking CBC Blood ","agent":{},"start":{"time":{"timestamp":"2022-07-18T09:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T09:30:00.000Z"}}},{"id":"f49bc694-0478-42b9-8687-51f3861cd5a9","type":"Lab Booking CBC Blood ","agent":{},"start":{"time":{"timestamp":"2022-07-18T09:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T10:00:00.000Z"}}},{"id":"ff2ec7d3-6ed2-43d6-9eb6-718eca995d52","type":"Lab Booking Blood Platelet Count","agent":{},"start":{"time":{"timestamp":"2022-07-18T08:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T09:00:00.000Z"}}},{"id":"4c4d034c-2e76-43fa-8a15-a7e0ad5259ed","type":"Lab Booking Blood Platelet Count","agent":{},"start":{"time":{"timestamp":"2022-07-18T09:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T09:30:00.000Z"}}},{"id":"09e73ce0-3b31-461f-a140-e10b262b475f","type":"Lab Booking Blood Platelet Count","agent":{},"start":{"time":{"timestamp":"2022-07-18T09:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T10:00:00.000Z"}}},{"id":"beadbd72-8516-40e4-8333-28cf820c8bee","type":"Ambulance","agent":{},"start":{"time":{"timestamp":""}},"end":{"time":{"timestamp":""}},"isBooked":true},{"id":"8f032520-ffcb-4640-81f8-1142dc829922","type":"Ambulance","agent":{},"start":{"time":{"timestamp":""}},"end":{"time":{"timestamp":""}}},{"id":"4be4d938-80e8-4518-89a9-da64b7ff97f4","type":"Ambulance","agent":{},"start":{"time":{"timestamp":""}},"end":{"time":{"timestamp":""}}},{"id":"d5a0dad0-9745-4e27-85e6-fed3d52b497c","type":"PhysicalConsultation","agent":{"id":"drake@hpr.abdm","name":"Dr Drake Ramoray","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T04:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T05:00:00.000Z"}}},{"id":"d91bd97c-98cb-4638-ad77-c4c40de1e037","type":"PhysicalConsultation","agent":{"id":"drake@hpr.abdm","name":"Dr Drake Ramoray","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T05:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T05:30:00.000Z"}}},{"id":"374aadb6-6152-45e1-a1a1-da5189d3ea9d","type":"PhysicalConsultation","agent":{"id":"drake@hpr.abdm","name":"Dr Drake Ramoray","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T05:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T06:00:00.000Z"}}},{"id":"897fd18d-87ef-412b-99cb-58f67969c462","type":"PhysicalConsultation","agent":{"id":"drake@hpr.abdm","name":"Dr Drake Ramoray","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T06:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T06:30:00.000Z"}},"isBooked":true},{"id":"39577839-5eb5-460e-8ad8-a8a3884ad845","type":"PhysicalConsultation","agent":{"id":"drake@hpr.abdm","name":"Dr Drake Ramoray","gender":"M","tags":{"@abdm/gov/in/first_consultation":"500.0","@abdm/gov/in/upi_id":"9896271877@okicici","@abdm/gov/in/follow_up":"200.0","@abdm/gov/in/experience":"7.0","@abdm/gov/in/languages":"Eng, Hin","@abdm/gov/in/speciality":"ENT","@abdm/gov/in/lab_report_consultation":"1000.0","@abdm/gov/in/education":"MS","@abdm/gov/in/hpr_id":"10696314","@abdm/gov/in/signature":null}},"start":{"time":{"timestamp":"2022-07-18T06:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T07:00:00.000Z"}}},{"id":"f7421b33-00b5-4c84-b329-4b4014051c6f","type":"Lab Booking Thyroxine","agent":{},"start":{"time":{"timestamp":"2022-07-18T04:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T05:00:00.000Z"}}},{"id":"ec6e1b8e-f643-402d-898a-2c78a2927041","type":"Lab Booking Thyroxine","agent":{},"start":{"time":{"timestamp":"2022-07-18T05:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T05:30:00.000Z"}}},{"id":"7f1d1376-03ac-481c-b94a-b65c3754cf37","type":"Lab Booking Thyroxine","agent":{},"start":{"time":{"timestamp":"2022-07-18T05:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T06:00:00.000Z"}},"isBooked":true},{"id":"e5402eeb-05c7-4799-941c-e667ab4488a9","type":"Lab Booking Thyroxine","agent":{},"start":{"time":{"timestamp":"2022-07-18T06:00:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T06:30:00.000Z"}}},{"id":"32432981-f2e4-40f3-825d-24bd34544028","type":"Lab Booking Thyroxine","agent":{},"start":{"time":{"timestamp":"2022-07-18T06:30:00.000Z"}},"end":{"time":{"timestamp":"2022-07-18T07:00:00.000Z"}}},{"id":"413da2e6-7eeb-4b35-aa04-d4c50733842b","type":"Ambulance","agent":{},"start":{"time":{"timestamp":""}},"end":{"time":{"timestamp":""}}},{"id":"0cff2f0a-fb48-4f2e-92fb-590439b0f8a5","type":"Ambulance","agent":{},"start":{"time":{"timestamp":""}},"end":{"time":{"timestamp":""}}}]}
+{
+    "descriptor": {
+        "name": "thecodingcompany"
+    },
+    "items": [
+        {
+            "id": "43628a59-d17f-4a26-a905-7e6b47779148",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "43628a59-d17f-4a26-a905-7e6b47779148"
+        },
+        {
+            "id": "852eaf4e-961f-47f5-bfa6-84c601e7dd7d",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "852eaf4e-961f-47f5-bfa6-84c601e7dd7d"
+        },
+        {
+            "id": "501240c9-ef51-40bc-9832-54a1ea84a0f6",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "501240c9-ef51-40bc-9832-54a1ea84a0f6"
+        },
+        {
+            "id": "8208499a-7d1a-47bb-b508-39053ee631dc",
+            "descriptor": {
+                "name": "PhysicalConsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "8208499a-7d1a-47bb-b508-39053ee631dc"
+        },
+        {
+            "id": "eb53a162-5e25-4b71-b273-41ea37ff7542",
+            "descriptor": {
+                "name": "PhysicalConsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "eb53a162-5e25-4b71-b273-41ea37ff7542"
+        },
+        {
+            "id": "88bd1e78-f917-49c2-b475-b0bba4b4a53a",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "88bd1e78-f917-49c2-b475-b0bba4b4a53a",
+            "isBooked": true
+        },
+        {
+            "id": "d247611f-05bf-492a-93b5-57545527be4b",
+            "descriptor": {
+                "name": "Teleconsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "d247611f-05bf-492a-93b5-57545527be4b",
+            "isBooked": true
+        },
+        {
+            "id": "337c1c55-b0c6-472b-857e-69949312094e",
+            "descriptor": {
+                "name": "Thyroxine"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "337c1c55-b0c6-472b-857e-69949312094e"
+        },
+        {
+            "id": "6d30495d-4631-409b-a574-0e916546af76",
+            "descriptor": {
+                "name": "Thyroxine"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "6d30495d-4631-409b-a574-0e916546af76"
+        },
+        {
+            "id": "a21c719c-7162-447b-95fb-c3d9cff8c686",
+            "descriptor": {
+                "name": "Thyroxine"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "a21c719c-7162-447b-95fb-c3d9cff8c686"
+        },
+        {
+            "id": "35c489b4-6f11-4707-840b-c93d8dfcb377",
+            "descriptor": {
+                "name": "Thyroid"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "35c489b4-6f11-4707-840b-c93d8dfcb377"
+        },
+        {
+            "id": "1e8cad30-c1e8-48b0-835a-5e593adeff44",
+            "descriptor": {
+                "name": "Thyroid"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "1e8cad30-c1e8-48b0-835a-5e593adeff44"
+        },
+        {
+            "id": "f9994f3c-6074-432f-8586-eb4239559fe8",
+            "descriptor": {
+                "name": "Thyroid"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "f9994f3c-6074-432f-8586-eb4239559fe8"
+        },
+        {
+            "id": "d1c2e520-d9d8-442c-bab2-23e827766bc6",
+            "descriptor": {
+                "name": "CBC Blood "
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "d1c2e520-d9d8-442c-bab2-23e827766bc6"
+        },
+        {
+            "id": "218b41d6-9cac-456e-9ca4-7da2b92fa2bf",
+            "descriptor": {
+                "name": "CBC Blood "
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "218b41d6-9cac-456e-9ca4-7da2b92fa2bf"
+        },
+        {
+            "id": "f49bc694-0478-42b9-8687-51f3861cd5a9",
+            "descriptor": {
+                "name": "CBC Blood "
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "f49bc694-0478-42b9-8687-51f3861cd5a9"
+        },
+        {
+            "id": "ff2ec7d3-6ed2-43d6-9eb6-718eca995d52",
+            "descriptor": {
+                "name": "Blood Platelet Count"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "ff2ec7d3-6ed2-43d6-9eb6-718eca995d52"
+        },
+        {
+            "id": "4c4d034c-2e76-43fa-8a15-a7e0ad5259ed",
+            "descriptor": {
+                "name": "Blood Platelet Count"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "4c4d034c-2e76-43fa-8a15-a7e0ad5259ed"
+        },
+        {
+            "id": "09e73ce0-3b31-461f-a140-e10b262b475f",
+            "descriptor": {
+                "name": "Blood Platelet Count"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "09e73ce0-3b31-461f-a140-e10b262b475f"
+        },
+        {
+            "id": "beadbd72-8516-40e4-8333-28cf820c8bee",
+            "descriptor": {
+                "name": "Ambulance - KA 04 MD 1234"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "beadbd72-8516-40e4-8333-28cf820c8bee",
+            "isBooked": true
+        },
+        {
+            "id": "8f032520-ffcb-4640-81f8-1142dc829922",
+            "descriptor": {
+                "name": "Ambulance - KA 01 MD 4567"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "8f032520-ffcb-4640-81f8-1142dc829922"
+        },
+        {
+            "id": "4be4d938-80e8-4518-89a9-da64b7ff97f4",
+            "descriptor": {
+                "name": "Ambulance - KA 03 AB 8901"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "4be4d938-80e8-4518-89a9-da64b7ff97f4"
+        },
+        {
+            "id": "d5a0dad0-9745-4e27-85e6-fed3d52b497c",
+            "descriptor": {
+                "name": "PhysicalConsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "d5a0dad0-9745-4e27-85e6-fed3d52b497c"
+        },
+        {
+            "id": "d91bd97c-98cb-4638-ad77-c4c40de1e037",
+            "descriptor": {
+                "name": "PhysicalConsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "d91bd97c-98cb-4638-ad77-c4c40de1e037"
+        },
+        {
+            "id": "374aadb6-6152-45e1-a1a1-da5189d3ea9d",
+            "descriptor": {
+                "name": "PhysicalConsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "374aadb6-6152-45e1-a1a1-da5189d3ea9d"
+        },
+        {
+            "id": "897fd18d-87ef-412b-99cb-58f67969c462",
+            "descriptor": {
+                "name": "PhysicalConsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "897fd18d-87ef-412b-99cb-58f67969c462",
+            "isBooked": true
+        },
+        {
+            "id": "39577839-5eb5-460e-8ad8-a8a3884ad845",
+            "descriptor": {
+                "name": "PhysicalConsultation"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "39577839-5eb5-460e-8ad8-a8a3884ad845"
+        },
+        {
+            "id": "f7421b33-00b5-4c84-b329-4b4014051c6f",
+            "descriptor": {
+                "name": "Thyroxine"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "f7421b33-00b5-4c84-b329-4b4014051c6f"
+        },
+        {
+            "id": "ec6e1b8e-f643-402d-898a-2c78a2927041",
+            "descriptor": {
+                "name": "Thyroxine"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "ec6e1b8e-f643-402d-898a-2c78a2927041"
+        },
+        {
+            "id": "7f1d1376-03ac-481c-b94a-b65c3754cf37",
+            "descriptor": {
+                "name": "Thyroxine"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "7f1d1376-03ac-481c-b94a-b65c3754cf37",
+            "isBooked": true
+        },
+        {
+            "id": "e5402eeb-05c7-4799-941c-e667ab4488a9",
+            "descriptor": {
+                "name": "Thyroxine"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "e5402eeb-05c7-4799-941c-e667ab4488a9"
+        },
+        {
+            "id": "32432981-f2e4-40f3-825d-24bd34544028",
+            "descriptor": {
+                "name": "Thyroxine"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "32432981-f2e4-40f3-825d-24bd34544028"
+        },
+        {
+            "id": "413da2e6-7eeb-4b35-aa04-d4c50733842b",
+            "descriptor": {
+                "name": "Ambulance - KA 03 AB 9999"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "413da2e6-7eeb-4b35-aa04-d4c50733842b"
+        },
+        {
+            "id": "0cff2f0a-fb48-4f2e-92fb-590439b0f8a5",
+            "descriptor": {
+                "name": "Ambulance - KA 03 AB 0000"
+            },
+            "price": {
+                "currency": "INR",
+                "value": "500.0"
+            },
+            "fulfillment_id": "0cff2f0a-fb48-4f2e-92fb-590439b0f8a5"
+        }
+    ],
+    "fulfillments": [
+        {
+            "id": "43628a59-d17f-4a26-a905-7e6b47779148",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "praveen.sv@hpr.abdm",
+                "name": "Dr. Praveen S V",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T03:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T04:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "852eaf4e-961f-47f5-bfa6-84c601e7dd7d",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "praveen.sv@hpr.abdm",
+                "name": "Dr. Praveen S V",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T04:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T04:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "501240c9-ef51-40bc-9832-54a1ea84a0f6",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "praveen.sv@hpr.abdm",
+                "name": "Dr. Praveen S V",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T04:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T05:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "8208499a-7d1a-47bb-b508-39053ee631dc",
+            "type": "PhysicalConsultation",
+            "agent": {
+                "id": "sonu.sourav@hpr.abdm",
+                "name": "Dr Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T04:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T05:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "eb53a162-5e25-4b71-b273-41ea37ff7542",
+            "type": "PhysicalConsultation",
+            "agent": {
+                "id": "sonu.sourav@hpr.abdm",
+                "name": "Dr Sonu S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T05:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T05:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "88bd1e78-f917-49c2-b475-b0bba4b4a53a",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "rohan.shrothrium@hpr.abdm",
+                "name": "Dr Rohan S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T05:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T06:00:00.000Z"
+                }
+            },
+            "isBooked": true
+        },
+        {
+            "id": "d247611f-05bf-492a-93b5-57545527be4b",
+            "type": "Teleconsultation",
+            "agent": {
+                "id": "rohan.shrothrium@hpr.abdm",
+                "name": "Dr Rohan S",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T06:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T06:30:00.000Z"
+                }
+            },
+            "isBooked": true
+        },
+        {
+            "id": "337c1c55-b0c6-472b-857e-69949312094e",
+            "type": "Lab Booking Thyroxine",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T08:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T09:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "6d30495d-4631-409b-a574-0e916546af76",
+            "type": "Lab Booking Thyroxine",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T09:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T09:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "a21c719c-7162-447b-95fb-c3d9cff8c686",
+            "type": "Lab Booking Thyroxine",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T09:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T10:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "35c489b4-6f11-4707-840b-c93d8dfcb377",
+            "type": "Lab Booking Thyroid",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T08:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T09:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "1e8cad30-c1e8-48b0-835a-5e593adeff44",
+            "type": "Lab Booking Thyroid",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T09:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T09:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "f9994f3c-6074-432f-8586-eb4239559fe8",
+            "type": "Lab Booking Thyroid",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T09:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T10:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "d1c2e520-d9d8-442c-bab2-23e827766bc6",
+            "type": "Lab Booking CBC Blood ",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T08:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T09:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "218b41d6-9cac-456e-9ca4-7da2b92fa2bf",
+            "type": "Lab Booking CBC Blood ",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T09:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T09:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "f49bc694-0478-42b9-8687-51f3861cd5a9",
+            "type": "Lab Booking CBC Blood ",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T09:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T10:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "ff2ec7d3-6ed2-43d6-9eb6-718eca995d52",
+            "type": "Lab Booking Blood Platelet Count",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T08:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T09:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "4c4d034c-2e76-43fa-8a15-a7e0ad5259ed",
+            "type": "Lab Booking Blood Platelet Count",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T09:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T09:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "09e73ce0-3b31-461f-a140-e10b262b475f",
+            "type": "Lab Booking Blood Platelet Count",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T09:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T10:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "beadbd72-8516-40e4-8333-28cf820c8bee",
+            "type": "Ambulance",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": ""
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": ""
+                }
+            },
+            "isBooked": true
+        },
+        {
+            "id": "8f032520-ffcb-4640-81f8-1142dc829922",
+            "type": "Ambulance",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": ""
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": ""
+                }
+            }
+        },
+        {
+            "id": "4be4d938-80e8-4518-89a9-da64b7ff97f4",
+            "type": "Ambulance",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": ""
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": ""
+                }
+            }
+        },
+        {
+            "id": "d5a0dad0-9745-4e27-85e6-fed3d52b497c",
+            "type": "PhysicalConsultation",
+            "agent": {
+                "id": "drake@hpr.abdm",
+                "name": "Dr Drake Ramoray",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T04:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T05:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "d91bd97c-98cb-4638-ad77-c4c40de1e037",
+            "type": "PhysicalConsultation",
+            "agent": {
+                "id": "drake@hpr.abdm",
+                "name": "Dr Drake Ramoray",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T05:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T05:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "374aadb6-6152-45e1-a1a1-da5189d3ea9d",
+            "type": "PhysicalConsultation",
+            "agent": {
+                "id": "drake@hpr.abdm",
+                "name": "Dr Drake Ramoray",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T05:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T06:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "897fd18d-87ef-412b-99cb-58f67969c462",
+            "type": "PhysicalConsultation",
+            "agent": {
+                "id": "drake@hpr.abdm",
+                "name": "Dr Drake Ramoray",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T06:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T06:30:00.000Z"
+                }
+            },
+            "isBooked": true
+        },
+        {
+            "id": "39577839-5eb5-460e-8ad8-a8a3884ad845",
+            "type": "PhysicalConsultation",
+            "agent": {
+                "id": "drake@hpr.abdm",
+                "name": "Dr Drake Ramoray",
+                "gender": "M",
+                "tags": {
+                    "@abdm/gov/in/first_consultation": "500.0",
+                    "@abdm/gov/in/upi_id": "9896271877@okicici",
+                    "@abdm/gov/in/follow_up": "200.0",
+                    "@abdm/gov/in/experience": "7.0",
+                    "@abdm/gov/in/languages": "Eng, Hin",
+                    "@abdm/gov/in/speciality": "ENT",
+                    "@abdm/gov/in/lab_report_consultation": "1000.0",
+                    "@abdm/gov/in/education": "MS",
+                    "@abdm/gov/in/hpr_id": "10696314",
+                    "@abdm/gov/in/signature": null
+                }
+            },
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T06:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T07:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "f7421b33-00b5-4c84-b329-4b4014051c6f",
+            "type": "Lab Booking Thyroxine",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T04:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T05:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "ec6e1b8e-f643-402d-898a-2c78a2927041",
+            "type": "Lab Booking Thyroxine",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T05:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T05:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "7f1d1376-03ac-481c-b94a-b65c3754cf37",
+            "type": "Lab Booking Thyroxine",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T05:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T06:00:00.000Z"
+                }
+            },
+            "isBooked": true
+        },
+        {
+            "id": "e5402eeb-05c7-4799-941c-e667ab4488a9",
+            "type": "Lab Booking Thyroxine",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T06:00:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T06:30:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "32432981-f2e4-40f3-825d-24bd34544028",
+            "type": "Lab Booking Thyroxine",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": "2022-07-18T06:30:00.000Z"
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": "2022-07-18T07:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "413da2e6-7eeb-4b35-aa04-d4c50733842b",
+            "type": "Ambulance",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": ""
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": ""
+                }
+            }
+        },
+        {
+            "id": "0cff2f0a-fb48-4f2e-92fb-590439b0f8a5",
+            "type": "Ambulance",
+            "agent": {},
+            "start": {
+                "time": {
+                    "timestamp": ""
+                }
+            },
+            "end": {
+                "time": {
+                    "timestamp": ""
+                }
+            }
+        }
+    ]
+}

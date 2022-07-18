@@ -1,4 +1,4 @@
-console.log('Hello world');
+// console.log('Hello world');
 
 async function registerLabTest() {
     var labTestType = document.querySelector("#add-labtest-form [name='labtest-form-type']").value;
@@ -6,7 +6,7 @@ async function registerLabTest() {
     var labTestEndTIme = document.querySelector("#add-labtest-form [name='labtest-form-slottimeend']").value;
     var formJSON = {type: labTestType,
                     startTime: labTestStartTime, endTime: labTestEndTIme};
-    console.log(formJSON);
+    // console.log(formJSON);
 
     try {
         var headers = new Headers();
@@ -18,12 +18,12 @@ async function registerLabTest() {
             body: JSON.stringify(formJSON),
         });
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
         
         //call loadlabTests
 
     } catch(error) {
-        console.log(error)
+        // console.log(error)
     }
 }
 
@@ -41,7 +41,7 @@ async function loadLabTests() {
 
 
     const data = await response.json();
-    console.log(data)
+    // console.log(data)
     for(let i = 0; i < data["users"].length; i++) {
         let record = data["users"][i];
         let colour = 'success';
@@ -62,7 +62,7 @@ async function loadLabTests() {
                                 </td>
                             </tr>`
         document.getElementById("dm-table-tbody").innerHTML += recordHTML;
-        // console.log(recordHTML);
+        // // console.log(recordHTML);
     }
 
 }

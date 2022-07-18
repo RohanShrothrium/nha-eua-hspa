@@ -1,4 +1,4 @@
-console.log('Hello world');
+// console.log('Hello world');
 
 
 function getParameter(name){
@@ -28,7 +28,7 @@ async function loadDoctorById() {
     for(let i = 0; i < data["users"].length; i++) {
         let record = data["users"][i];
         if (record.name == name){
-            console.log(record)
+            // console.log(record)
             let index = (i + 1);
             let colour = 'success';
             let status = 'Available';
@@ -39,9 +39,9 @@ async function loadDoctorById() {
             let bookingDate = record.startTime.slice(0, 10)
             let bookingStart = record.startTime.slice(12,19)
             let bookingEnd = record.endTime.slice(12,19)
-            console.log(bookingStart)
-            console.log(bookingDate)
-            console.log(name)
+            // console.log(bookingStart)
+            // console.log(bookingDate)
+            // console.log(name)
             // <td><a href="#"><img src="https://www.tutorialrepublic.com/examples/images/avatar/${index}.jpg" class="avatar" alt="Avatar">${record.name}</a></td>
             var recordHTML = `<li class="position-relative booking">
                                 <div class="media">
@@ -72,7 +72,7 @@ async function loadDoctorById() {
             document.getElementById("doctor-appointment-name").innerHTML = name;
             
         }
-        // console.log(recordHTML);
+        // // console.log(recordHTML);
     }
     
 }

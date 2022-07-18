@@ -32,7 +32,7 @@ exports.RegisterAmbulance = async (vehicleNumber) => {
 
         fs.writeFile(jsonPath, JSON.stringify(catalogue), function (err) {
             if (err) throw err;
-            console.log("It's saved!");
+            // console.log("It's saved!");
             // file written successfully
         });
 
@@ -76,7 +76,7 @@ exports.RegisterLabTest = async (startTime, endTime, type) => {
 
         fs.writeFile(jsonPath, JSON.stringify(catalogue), function (err) {
             if (err) throw err;
-            console.log("It's saved!");
+            // console.log("It's saved!");
             // file written successfully
         });
 
@@ -125,7 +125,7 @@ exports.Register = async (id, name, gender, startTime, endTime, type) => {
 
         fs.writeFile(jsonPath, JSON.stringify(catalogue), function (err) {
             if (err) throw err;
-            console.log("It's saved!");
+            // console.log("It's saved!");
             // file written successfully
         });
 
@@ -154,7 +154,7 @@ exports.GetAppointments = async () => {
                 endTime: catalogue.fulfillments[i].end.time.timestamp,
                 isBooked: catalogue.fulfillments[i].isBooked != undefined
             }
-            console.log(user)
+            // console.log(user)
             users.push(user)
         }
         users = sort_by_key(users, 'name')
@@ -181,7 +181,7 @@ exports.GetLabBookings = async () => {
                 endTime: catalogue.fulfillments[i].end.time.timestamp,
                 isBooked: catalogue.fulfillments[i].isBooked != undefined
             }
-            console.log(user)
+            // console.log(user)
             users.push(user)
         }
 
@@ -206,7 +206,7 @@ exports.GetAmbulances = async () => {
                 vehicleNumber: catalogue.items[i].descriptor.name,
                 isBooked: catalogue.fulfillments[i].isBooked != undefined
             }
-            console.log(user)
+            // console.log(user)
             users.push(user)
         }
 
@@ -252,8 +252,8 @@ exports.Search = async (context, intent) => {
         axios
             .post('http://121.242.73.120:8083/api/v1/on_search', response)
             .then(res => {
-                console.log(`statusCode: ${res.status}`);
-                console.log(res.data);
+                // console.log(`statusCode: ${res.status}`);
+                // console.log(res.data);
             })
             .catch(error => {
                 console.error(error);
@@ -301,8 +301,8 @@ exports.ServiceSearch = async (context, intent) => {
         axios
             .post(context.consumer_uri + '/on_search', response)
             .then(res => {
-                console.log(`statusCode: ${res.status}`);
-                console.log(res.data);
+                // console.log(`statusCode: ${res.status}`);
+                // console.log(res.data);
             })
             .catch(error => {
                 console.error(error);
@@ -337,8 +337,8 @@ exports.Init = async (context, order) => {
         axios
             .post(context.consumer_uri + '/on_init', response)
             .then(res => {
-                console.log(`statusCode: ${res.status}`);
-                console.log(res.data);
+                // console.log(`statusCode: ${res.status}`);
+                // console.log(res.data);
             })
             .catch(error => {
                 console.error(error);
@@ -372,15 +372,15 @@ exports.Confirm = async (context, order) => {
         const initString = JSON.stringify(catalogue)
         fs.writeFile(jsonPath, initString, function (err) {
             if (err) throw err;
-            console.log("It's saved!");
+            // console.log("It's saved!");
             // file written successfully
         });
 
         axios
             .post(context.consumer_uri + '/on_confirm', response)
             .then(res => {
-                console.log(`statusCode: ${res.status}`);
-                console.log(res.data);
+                // console.log(`statusCode: ${res.status}`);
+                // console.log(res.data);
             })
             .catch(error => {
                 console.error(error);
